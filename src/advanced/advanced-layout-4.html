@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Advanced Layout 4</title>
-    <link rel="stylesheet" href="../style.css" />
-    <style>
-      /* Doe hier jouw ding! */
-    </style>
-  </head>
-  <body id="advanced-layout-4">
-    <header><h1>Advanced Layout 4</h1></header>
-    <nav><a href="../index.html">Terug naar het overzicht</a></nav>
-    <main></main>
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Layout 4</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body {
+      /* max-width: 30em;
+      margin: 0 auto; */
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "nav header"
+        "main footer";
+    }
+
+    header {
+      background-color: transparent;
+      grid-area: header;
+      height: 50vh;
+      width: 0px;
+      border-top: 0vw solid cyan;
+      border-left: 50vw solid cyan;
+      border-bottom: 20vw solid transparent;
+    }
+
+    nav {
+      background-color: transparent;
+      grid-area: nav;
+      height: 70vh;
+      width: 0px;
+      border-top: 0vw solid magenta;
+      border-left: 50vw solid magenta;
+      border-bottom: 20vw solid transparent;
+      /* height: 500px;
+      width: 0px;
+      border-top: 0vw solid magenta;
+      border-left: 500px solid magenta;
+      border-bottom: 300px solid transparent; */
+    }
+
+    a {
+      position: relative;
+      top: 80px;
+      right: 250px;
+    }
+
+    main {
+      position: relative;
+      bottom: 145px;
+      background-color: transparent;
+      grid-area: main;
+      height: 70vh;
+      width: 0px;
+      border-bottom: 0vw solid yellow;
+      border-right: 50vw solid yellow;
+      border-top: 20vw solid transparent;
+    }
+
+    footer {
+      position: relative;
+      bottom: 290px;
+      background-color: transparent;
+      grid-area: footer;
+      height: 70vh;
+      width: 0px;
+      border-bottom: 0vw solid black;
+      border-right: 50vw solid black;
+      border-top: 20vw solid transparent;
+    }
+  </style>
+</head>
+
+<body id="advanced-layout-4">
+  <header>
+    <h1>Advanced Layout 4</h1>
+  </header>
+  <nav><a href="../index.html">Terug naar het overzicht</a></nav>
+  <main></main>
+  <footer></footer>
+</body>
+
 </html>

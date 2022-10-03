@@ -12,18 +12,22 @@ body > * {
   min-height: 1em;
 }
 header {
+  border: solid white 5px;
   background: cyan;
 }
 header > h1 {
   margin: 0;
 }
 nav {
+  border: solid white 5px;
   background: magenta;
 }
 main {
+  border: solid white 5px;
   background: yellow;
 }
 footer {
+  border: solid white 5px;
   background: black;
   color: white;
 }
