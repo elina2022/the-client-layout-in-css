@@ -1,6 +1,6 @@
-> _Fork_ deze deeltaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Titel
+Oefenen met grid layout
 
-# Layout in CSS
+## Beschrijving
 
-Een oefening in document layout met CSS.
+In dit document heb ik gebruik gemaakt van grid om een aantal layouts na te maken.
